@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">TestChildren</string>
+    <string name="alphabet">Алфавит</string>
+    <string name="second_act">Я вторая активность</string>
+    <string name="draw">Письмо</string>
+    <string name="examples">Примеры</string>
+
+    <string-array name="words_array">
+        <item>Alex</item>
+        <item>Bug</item>
+        <item>Cloud</item>
+        <item>Door</item>
+        <item>Earth</item>
+        <item>Flower</item>
+        <item>Gift</item>
+        <item>House</item>
+        <item>Ice-cream</item>
+        <item>Juice</item>
+        <item>Key</item>
+        <item>Lamp</item>
+        <item>Mushroom</item>
+        <item>Note</item>
+        <item>Octopus</item>
+        <item>Pencil</item>
+        <item>Question</item>
+        <item>Rocket</item>
+        <item>Star</item>
+        <item>Television</item>
+        <item>Umbrella</item>
+        <item>Vase</item>
+        <item>Watch</item>
+        <item>Xylophone</item>
+        <item>Yacht</item>
+        <item>Zipper</item>
+    </string-array>
+
+    <string-array name="words_array_ru">
+        <item>Алешка</item>
+        <item>Баг</item>
+        <item>Вода</item>
+        <item>Гусь</item>
+        <item>Дверь</item>
+        <item>Ель</item>
+        <item>Ёж</item>
+        <item>Жиза</item>
+        <item>Зануда</item>
+        <item>Игра</item>
+        <item>Йогурт</item>
+        <item>Костер</item>
+        <item>Лампа</item>
+        <item>Мама</item>
+        <item>Носорог</item>
+        <item>Очки</item>
+        <item>Перстень</item>
+        <item>Ракета</item>
+        <item>Скука</item>
+        <item>Телевизор</item>
+        <item>Утка</item>
+        <item>Фонарь</item>
+        <item>Хрен</item>
+        <item>Цапля</item>
+        <item>Часовня</item>
+        <item>Шар</item>
+        <item>Щука</item>
+
+        <item>Ъ</item>
+        <item>Ы</item>
+        <item>Ь</item>
+
+        <item>Эфир</item>
+        <item>Юла</item>
+        <item>Яблоко</item>
+    </string-array>
+</resources>

@@ -1,0 +1,60 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/imageView7"
+    tools:context="com.example.android.testchildren.SecondScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_alphabet"
+                style="@style/image_style"
+                android:background="@color/imageView1" />
+
+            <TextView
+                style="@style/tv_styles"
+                android:text="@string/alphabet" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_draw"
+                style="@style/image_style"
+                android:background="@color/imageView2" />
+
+            <TextView
+                style="@style/tv_styles"
+                android:text="@string/draw" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_examples"
+                style="@style/image_style"
+                android:background="@color/imageView1" />
+
+            <TextView
+                style="@style/tv_styles"
+                android:text="@string/examples" />
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>

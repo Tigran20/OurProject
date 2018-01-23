@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#146a08ea</color>
+
+
+    <color name="imageView1">#ff4081</color>
+    <color name="imageView2">#ffc940</color>
+    <color name="imageView3">#1b5ed9</color>
+    <color name="imageView4">#278739</color>
+    <color name="imageView5">#8017be</color>
+    <color name="imageView6">#21a5c2</color>
+
+
+    <color name="imageView7">#FAEBD7</color>
+
+
+</resources>
+
