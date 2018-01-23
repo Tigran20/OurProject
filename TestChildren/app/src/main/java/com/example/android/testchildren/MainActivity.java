@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
+import android.widget.ToggleButton;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -29,8 +30,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private ImageView mNextAct11;
     private ImageView mNextAct12;
 
-    private Button mHideSimple;
-    private Button mHideNotSimple;
+    private ToggleButton mHideSimple;
+    private ToggleButton mHideNotSimple;
 
     private boolean isBackBtnPressed = false;
 
@@ -62,18 +63,38 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mHideSimple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mSimpleLay.setVisibility(View.GONE);
+                boolean on = ((ToggleButton) v).isChecked();
+
+                if (on) {
+                    mSimpleLay.setVisibility(View.GONE);
+                } else {
+                    mSimpleLay.setVisibility(View.VISIBLE);
+                }
             }
         });
 
         mHideNotSimple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mNotSimpleLay.setVisibility(View.GONE);
+                boolean on = ((ToggleButton) v).isChecked();
+
+                if (on) {
+                    mNotSimpleLay.setVisibility(View.GONE);
+                } else {
+                    mNotSimpleLay.setVisibility(View.VISIBLE);
+                }
             }
         });
 
-        mNextAct.setOnClickListener(this);
+        mNextAct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SecondScreen.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+            }
+        });
+
         mNextAct2.setOnClickListener(this);
         mNextAct3.setOnClickListener(this);
         mNextAct4.setOnClickListener(this);
@@ -108,8 +129,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        Intent intent = new Intent(MainActivity.this, SecondScreen.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        startActivity(intent);
+        Toast.makeText(getApplicationContext(), "В разработке", Toast.LENGTH_SHORT).show();
     }
 }

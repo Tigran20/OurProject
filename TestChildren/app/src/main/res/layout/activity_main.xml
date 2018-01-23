@@ -14,8 +14,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginRight="33dp"
-            android:layout_marginLeft="33dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
             android:layout_marginTop="16dp"
             android:gravity="right"
             android:orientation="horizontal">
@@ -31,35 +31,37 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="92dp"
+                android:text="Простые игры"
+                android:textColor="@color/imageView4"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/hide_simple_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:textOn="Off"
+                android:textOff="On"/>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:id="@+id/simple_lay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="24dp"
             android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingBottom="16dp"
-                    android:paddingRight="92dp"
-                    android:text="Простые игры"
-                    android:textColor="@color/imageView4"
-                    android:textSize="24sp"
-                    android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/hide_simple_btn"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:text="Hide" />
-
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -197,6 +199,32 @@
             </LinearLayout>
         </LinearLayout>
 
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:text="Интерактивные игры"
+                android:textColor="@color/imageView4"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/hide_not_simple_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:textOn="Off"
+                android:textOff="On"/>
+
+        </LinearLayout>
+
         <LinearLayout
             android:id="@+id/not_simple_lay"
             android:layout_width="wrap_content"
@@ -204,29 +232,6 @@
             android:layout_gravity="center"
             android:layout_marginBottom="16dp"
             android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingBottom="16dp"
-                    android:paddingRight="12dp"
-                    android:text="Интерактивные игры"
-                    android:textColor="@color/imageView4"
-                    android:textSize="24sp"
-                    android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/hide_not_simple_btn"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:text="Hide" />
-
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
