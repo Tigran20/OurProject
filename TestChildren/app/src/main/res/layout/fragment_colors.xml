@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/backgroundImage">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <Button
+                android:id="@+id/start_sound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:text="Звук" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_color"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/imageView3" />
+
+    <TextView
+        android:id="@+id/color_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Алекс"
+        android:textAlignment="center"
+        android:textSize="60sp" />
+
+</LinearLayout>

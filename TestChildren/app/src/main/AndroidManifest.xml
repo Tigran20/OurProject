@@ -19,28 +19,40 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".SecondScreen"
-            android:label="SecondScreen"
-            android:parentActivityName="MainActivity"
-            android:screenOrientation="portrait"/>
+        <!--<activity-->
+            <!--android:name=".SecondScreen"-->
+            <!--android:label="SecondScreen"-->
+            <!--android:parentActivityName="MainActivity"-->
+            <!--android:screenOrientation="portrait"/>-->
 
         <activity
             android:name=".Letters"
             android:label="Letters"
-            android:parentActivityName="SecondScreen"
-            android:screenOrientation="portrait"/>
-
-        <activity
-            android:name=".Draw"
-            android:label="Draw"
-            android:parentActivityName="SecondScreen"
+            android:parentActivityName="MainActivity"
             android:screenOrientation="portrait"/>
 
         <activity
             android:name=".LetterCards"
             android:label="LetterCards"
             android:parentActivityName="Letters"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".Colors"
+            android:label="Colors"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ColorCards"
+            android:label="ColorCards"
+            android:parentActivityName="Colors"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".Draw"
+            android:label="Draw"
+            android:parentActivityName="MainActivity"
             android:screenOrientation="portrait"/>
     </application>
 

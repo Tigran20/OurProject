@@ -5,7 +5,6 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -89,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mNextAct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SecondScreen.class);
+                Intent intent = new Intent(MainActivity.this, Letters.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
             }
@@ -98,9 +97,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mNextAct2.setOnClickListener(this);
         mNextAct3.setOnClickListener(this);
         mNextAct4.setOnClickListener(this);
-        mNextAct5.setOnClickListener(this);
-        mNextAct6.setOnClickListener(this);
 
+        mNextAct5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Colors.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+            }
+        });
+
+        mNextAct6.setOnClickListener(this);
         mNextAct7.setOnClickListener(this);
         mNextAct8.setOnClickListener(this);
         mNextAct9.setOnClickListener(this);

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.android.testchildren.SecondScreen"
-    android:background="@color/imageView7">
+    android:background="@color/backgroundImage">
 
     <TextView
         android:id="@+id/letter"

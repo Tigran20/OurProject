@@ -1,13 +1,14 @@
 package com.example.android.testchildren;
 
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.android.testchildren.data.LettersAdapter;
+import com.example.android.testchildren.data.ColorsAdapter;
 
-public class LetterCards extends AppCompatActivity {
+public class ColorCards extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,15 +16,13 @@ public class LetterCards extends AppCompatActivity {
         setContentView(R.layout.view_pager);
 
         ViewPager viewPager = findViewById(R.id.pager);
-        viewPager.setAdapter(new LettersAdapter(getSupportFragmentManager()));
+        viewPager.setAdapter(new ColorsAdapter(getSupportFragmentManager()));
     }
 
     @Override
     public void onBackPressed() {
-        Intent intent = new Intent(LetterCards.this, Letters.class);
+        Intent intent = new Intent(ColorCards.this, Colors.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
     }
-
-
 }

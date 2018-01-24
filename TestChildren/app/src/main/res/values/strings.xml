@@ -5,35 +5,6 @@
     <string name="draw">Письмо</string>
     <string name="examples">Примеры</string>
 
-    <string-array name="words_array">
-        <item>Alex</item>
-        <item>Bug</item>
-        <item>Cloud</item>
-        <item>Door</item>
-        <item>Earth</item>
-        <item>Flower</item>
-        <item>Gift</item>
-        <item>House</item>
-        <item>Ice-cream</item>
-        <item>Juice</item>
-        <item>Key</item>
-        <item>Lamp</item>
-        <item>Mushroom</item>
-        <item>Note</item>
-        <item>Octopus</item>
-        <item>Pencil</item>
-        <item>Question</item>
-        <item>Rocket</item>
-        <item>Star</item>
-        <item>Television</item>
-        <item>Umbrella</item>
-        <item>Vase</item>
-        <item>Watch</item>
-        <item>Xylophone</item>
-        <item>Yacht</item>
-        <item>Zipper</item>
-    </string-array>
-
     <string-array name="words_array_ru">
         <item>Алешка</item>
         <item>Баг</item>
@@ -71,4 +42,16 @@
         <item>Юла</item>
         <item>Яблоко</item>
     </string-array>
+
+    <string-array name="colors_array">
+        <item>Красный</item>
+        <item>Синий</item>
+        <item>Желтый</item>
+        <item>Зеленый</item>
+        <item>Оранжевый</item>
+        <item>Голубой</item>
+        <item>Фиолетовый</item>
+        <item>Белый</item>
+    </string-array>
+
 </resources>

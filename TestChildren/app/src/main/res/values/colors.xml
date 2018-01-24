@@ -5,6 +5,8 @@
     <color name="colorAccent">#146a08ea</color>
 
 
+    <color name="textColor">#000000</color>
+
     <color name="imageView1">#ff4081</color>
     <color name="imageView2">#ffc940</color>
     <color name="imageView3">#1b5ed9</color>
@@ -12,8 +14,21 @@
     <color name="imageView5">#8017be</color>
     <color name="imageView6">#21a5c2</color>
 
+    <color name="backgroundImage">#FAEBD7</color>
 
-    <color name="imageView7">#FAEBD7</color>
+
+    <color name="rainbow1">#F44336</color>
+    <color name="rainbow2">#3F51B5</color>
+    <color name="rainbow3">#FFEB3B</color>
+    <color name="rainbow4">#4CAF50</color>
+    <color name="rainbow5">#FF9800</color>
+    <color name="rainbow6">#2196F3</color>
+    <color name="rainbow7">#9C27B0</color>
+
+    <color name="rainbow8">#ffffff</color>
+    <color name="rainbow9">#000000</color>
+    <color name="rainbow10">#795548</color>
+
 
 
 </resources>
