@@ -60,7 +60,7 @@ public class Letters extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     public void onBackPressed() {
-        Intent intent = new Intent(Letters.this, MainActivity.class);
+        Intent intent = new Intent(Letters.this, SecondScreen.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
     }

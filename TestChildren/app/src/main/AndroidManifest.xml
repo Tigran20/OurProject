@@ -19,11 +19,11 @@
             </intent-filter>
         </activity>
 
-        <!--<activity-->
-            <!--android:name=".SecondScreen"-->
-            <!--android:label="SecondScreen"-->
-            <!--android:parentActivityName="MainActivity"-->
-            <!--android:screenOrientation="portrait"/>-->
+        <activity
+            android:name=".SecondScreen"
+            android:label="SecondScreen"
+            android:parentActivityName="MainActivity"
+            android:screenOrientation="portrait"/>
 
         <activity
             android:name=".Letters"
