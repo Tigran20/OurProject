@@ -9,14 +9,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginTop="16dp"
             android:gravity="right"
             android:orientation="horizontal">
 
@@ -30,276 +31,302 @@
 
         </LinearLayout>
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="22dp"
-            android:layout_marginRight="22dp"
-            android:orientation="horizontal">
+            android:layout_gravity="right">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingRight="96dp"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/hide_simple_btn"
                 android:text="Простые игры"
                 android:textColor="@color/imageView4"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <ToggleButton
                 android:id="@+id/hide_simple_btn"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textOff="On"
                 android:textOn="Off"
-                android:textOff="On"/>
+                android:textStyle="italic" />
 
-        </LinearLayout>
+        </RelativeLayout>
 
         <LinearLayout
             android:id="@+id/simple_lay"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="28dp"
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="16dp"
                 android:orientation="horizontal">
 
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:id="@+id/iv_1"
-                        android:layout_width="150dp"
-                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:background="@color/imageView1" />
 
                     <TextView
                         style="@style/tv_styles"
-                        android:text="Алфавит"
-                        android:textAlignment="center" />
+                        android:autoSizeTextType="uniform"
+                        android:text="Алфавит" />
 
                 </FrameLayout>
 
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:id="@+id/iv_2"
-                        android:layout_width="150dp"
-                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:background="@color/imageView2" />
 
                     <TextView
                         style="@style/tv_styles"
+                        android:autoSizeTextType="uniform"
                         android:text="Слова" />
 
                 </FrameLayout>
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="16dp"
                 android:orientation="horizontal">
 
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:id="@+id/iv_3"
-                        android:layout_width="150dp"
-                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:background="@color/imageView3" />
 
                     <TextView
                         style="@style/tv_styles"
+                        android:autoSizeTextType="uniform"
                         android:text="Цифры" />
 
                 </FrameLayout>
 
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:id="@+id/iv_4"
-                        android:layout_width="150dp"
-                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:background="@color/imageView4" />
 
                     <TextView
                         style="@style/tv_styles"
+                        android:autoSizeTextType="uniform"
                         android:text="Животные" />
 
                 </FrameLayout>
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:orientation="horizontal">
 
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:id="@+id/iv_5"
-                        android:layout_width="150dp"
-                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:background="@color/imageView5" />
 
                     <TextView
                         style="@style/tv_styles"
+                        android:autoSizeTextType="uniform"
                         android:text="Цвета" />
 
                 </FrameLayout>
 
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:id="@+id/iv_6"
-                        android:layout_width="150dp"
-                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:background="@color/imageView6" />
 
                     <TextView
                         style="@style/tv_styles"
+                        android:autoSizeTextType="uniform"
                         android:text="Части тела" />
 
                 </FrameLayout>
             </LinearLayout>
         </LinearLayout>
 
-
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="22dp"
-            android:layout_marginRight="22dp"
-            android:orientation="horizontal">
+            android:layout_gravity="right">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingRight="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/hide_not_simple_btn"
                 android:text="Интерактивные игры"
                 android:textColor="@color/imageView4"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <ToggleButton
                 android:id="@+id/hide_not_simple_btn"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textOff="On"
                 android:textOn="Off"
-                android:textOff="On"/>
+                android:textStyle="italic" />
 
-        </LinearLayout>
+        </RelativeLayout>
 
         <LinearLayout
             android:id="@+id/not_simple_lay"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="16dp"
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:orientation="horizontal">
 
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:id="@+id/iv_7"
-                        android:layout_width="150dp"
-                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:background="@color/imageView1" />
 
                     <TextView
                         style="@style/tv_styles"
-                        android:text="Выбери цвет"
-                        android:textAlignment="center" />
+                        android:autoSizeTextType="uniform"
+                        android:text="Выбери цвет" />
 
                 </FrameLayout>
 
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:id="@+id/iv_8"
-                        android:layout_width="150dp"
-                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:background="@color/imageView2" />
 
                     <TextView
                         style="@style/tv_styles"
+                        android:autoSizeTextType="uniform"
                         android:text="Раскраска" />
 
                 </FrameLayout>
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="16dp"
                 android:orientation="horizontal">
 
                 <FrameLayout
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:id="@+id/iv_9"
-                        android:layout_width="150dp"
-                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:background="@color/imageView3" />
 
                     <TextView
                         style="@style/tv_styles"
+                        android:autoSizeTextType="uniform"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
                         android:text="Выбери фигуру"
                         android:textAlignment="center" />
 
@@ -307,45 +334,51 @@
 
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:id="@+id/iv_10"
-                        android:layout_width="150dp"
-                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:background="@color/imageView4" />
 
                     <TextView
                         style="@style/tv_styles"
-                        android:text="Счеты" />
+                        android:autoSizeTextType="uniform"
+
+                        android:text="Пианино" />
 
                 </FrameLayout>
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="24dp"
                 android:layout_marginTop="16dp"
                 android:orientation="horizontal">
 
                 <FrameLayout
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:id="@+id/iv_11"
-                        android:layout_width="150dp"
-                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:background="@color/imageView5" />
 
                     <TextView
                         style="@style/tv_styles"
+                        android:autoSizeTextType="uniform"
                         android:text="Найти соответствие"
                         android:textAlignment="center" />
 
@@ -353,19 +386,22 @@
 
                 <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:id="@+id/iv_12"
-                        android:layout_width="150dp"
-                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:background="@color/imageView6" />
 
                     <TextView
                         style="@style/tv_styles"
-                        android:text="Пианино" />
+                        android:autoSizeTextType="uniform"
+                        android:text="Счеты" />
 
                 </FrameLayout>
 
