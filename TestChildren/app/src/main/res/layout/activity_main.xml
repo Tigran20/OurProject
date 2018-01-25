@@ -43,7 +43,7 @@
                 android:layout_toLeftOf="@+id/hide_simple_btn"
                 android:text="Простые игры"
                 android:textColor="@color/imageView4"
-                android:textSize="20sp"
+                android:textSize="26sp"
                 android:textStyle="bold" />
 
             <ToggleButton
@@ -228,7 +228,7 @@
                 android:layout_toLeftOf="@+id/hide_not_simple_btn"
                 android:text="Интерактивные игры"
                 android:textColor="@color/imageView4"
-                android:textSize="20sp"
+                android:textSize="26sp"
                 android:textStyle="bold" />
 
             <ToggleButton
@@ -349,7 +349,6 @@
                     <TextView
                         style="@style/tv_styles"
                         android:autoSizeTextType="uniform"
-
                         android:text="Пианино" />
 
                 </FrameLayout>
