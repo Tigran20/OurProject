@@ -16,8 +16,19 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:textColor">#fff</item>
-        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#4CAF50</item>
+        <item name="android:textSize">56sp</item>
+        <item name="android:fontFamily">@font/airfool</item>
+
+        <item name="android:shadowColor">@color/textColor</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">4</item>
+
+    </style>
+
+    <style name="tv_styles2" parent="tv_styles">
+        <item name="android:textColor">#FF9800</item>
     </style>
 
     <style name="tv_styles_main">
@@ -30,6 +41,10 @@
 
     <style name="TextViewCustomFont">
         <item name="android:fontFamily">@font/kaori_regular</item>
+    </style>
+
+    <style name="TextViewCustomFont2">
+        <item name="android:fontFamily">@font/airfool</item>
     </style>
 
 </resources>

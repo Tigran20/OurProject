@@ -30,14 +30,12 @@
                 <ImageView
                     android:id="@+id/iv_1"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView1" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
                     android:text="А"
-                    android:textAlignment="center"
-                    android:textSize="28sp" />
+                    android:textAlignment="center" />
 
             </FrameLayout>
 
@@ -52,11 +50,10 @@
                 <ImageView
                     android:id="@+id/iv_2"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView2" />
+                    android:layout_height="80dp" />
 
                 <TextView
-                    style="@style/tv_styles"
+                    style="@style/tv_styles2"
                     android:text="Б" />
 
             </FrameLayout>
@@ -72,8 +69,7 @@
                 <ImageView
                     android:id="@+id/iv_3"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView1" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -91,11 +87,10 @@
                 <ImageView
                     android:id="@+id/iv_4"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView2" />
+                    android:layout_height="80dp" />
 
                 <TextView
-                    style="@style/tv_styles"
+                    style="@style/tv_styles2"
                     android:text="Г" />
 
             </FrameLayout>
@@ -118,11 +113,10 @@
                 <ImageView
                     android:id="@+id/iv_5"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView1" />
+                    android:layout_height="80dp" />
 
                 <TextView
-                    style="@style/tv_styles"
+                    style="@style/tv_styles2"
                     android:text="Д"
                     android:textAlignment="center" />
 
@@ -139,8 +133,7 @@
                 <ImageView
                     android:id="@+id/iv_6"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView2" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -159,11 +152,10 @@
                 <ImageView
                     android:id="@+id/iv_7"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView1" />
+                    android:layout_height="80dp" />
 
                 <TextView
-                    style="@style/tv_styles"
+                    style="@style/tv_styles2"
                     android:text="Ё" />
 
             </FrameLayout>
@@ -178,8 +170,7 @@
                 <ImageView
                     android:id="@+id/iv_8"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView2" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -205,8 +196,7 @@
                 <ImageView
                     android:id="@+id/iv_9"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView1" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -226,11 +216,10 @@
                 <ImageView
                     android:id="@+id/iv_10"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView2" />
+                    android:layout_height="80dp" />
 
                 <TextView
-                    style="@style/tv_styles"
+                    style="@style/tv_styles2"
                     android:text="И" />
 
             </FrameLayout>
@@ -246,8 +235,7 @@
                 <ImageView
                     android:id="@+id/iv_11"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView1" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -265,11 +253,10 @@
                 <ImageView
                     android:id="@+id/iv_12"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView2" />
+                    android:layout_height="80dp" />
 
                 <TextView
-                    style="@style/tv_styles"
+                    style="@style/tv_styles2"
                     android:text="К" />
 
             </FrameLayout>
@@ -292,8 +279,7 @@
                 <ImageView
                     android:id="@+id/iv_13"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView1" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -313,8 +299,7 @@
                 <ImageView
                     android:id="@+id/iv_14"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView2" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -333,8 +318,7 @@
                 <ImageView
                     android:id="@+id/iv_15"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView1" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -352,8 +336,7 @@
                 <ImageView
                     android:id="@+id/iv_16"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView2" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -379,8 +362,7 @@
                 <ImageView
                     android:id="@+id/iv_17"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView1" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -400,8 +382,7 @@
                 <ImageView
                     android:id="@+id/iv_18"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView2" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -420,8 +401,7 @@
                 <ImageView
                     android:id="@+id/iv_19"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView1" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -439,8 +419,7 @@
                 <ImageView
                     android:id="@+id/iv_20"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView2" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -466,8 +445,7 @@
                 <ImageView
                     android:id="@+id/iv_21"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView1" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -487,8 +465,7 @@
                 <ImageView
                     android:id="@+id/iv_22"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView2" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -507,8 +484,7 @@
                 <ImageView
                     android:id="@+id/iv_23"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView1" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -526,8 +502,7 @@
                 <ImageView
                     android:id="@+id/iv_24"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView2" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -552,8 +527,7 @@
                 <ImageView
                     android:id="@+id/iv_25"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView1" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -574,8 +548,7 @@
                 <ImageView
                     android:id="@+id/iv_26"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView2" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -594,8 +567,7 @@
                 <ImageView
                     android:id="@+id/iv_27"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView1" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -613,8 +585,7 @@
                 <ImageView
                     android:id="@+id/iv_28"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView2" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -640,8 +611,7 @@
                 <ImageView
                     android:id="@+id/iv_29"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView1" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -661,8 +631,7 @@
                 <ImageView
                     android:id="@+id/iv_30"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView2" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -682,8 +651,7 @@
                 <ImageView
                     android:id="@+id/iv_31"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView1" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -702,8 +670,7 @@
                 <ImageView
                     android:id="@+id/iv_32"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView2" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -730,8 +697,7 @@
                 <ImageView
                     android:id="@+id/iv_33"
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:background="@color/imageView1" />
+                    android:layout_height="80dp" />
 
                 <TextView
                     style="@style/tv_styles"
@@ -749,8 +715,7 @@
 
                 <ImageView
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                     />
+                    android:layout_height="80dp" />
 
                 <TextView style="@style/tv_styles" />
 
@@ -766,8 +731,7 @@
 
                 <ImageView
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                     />
+                    android:layout_height="80dp" />
 
                 <TextView style="@style/tv_styles" />
 
@@ -782,8 +746,7 @@
 
                 <ImageView
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
-                     />
+                    android:layout_height="80dp" />
 
                 <TextView style="@style/tv_styles" />
 
