@@ -94,7 +94,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-        mNextAct2.setOnClickListener(this);
+        mNextAct2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Draw.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+            }
+        });
+
+
         mNextAct3.setOnClickListener(this);
         mNextAct4.setOnClickListener(this);
 
