@@ -54,8 +54,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentTop="true"
                 android:textOff="On"
-                android:textOn="Off"
-                android:textStyle="italic" />
+                android:textOn="Off" />
 
         </RelativeLayout>
 
@@ -88,7 +87,7 @@
                         android:background="@color/imageView1" />
 
                     <TextView
-                        style="@style/tv_styles"
+                        style="@style/tv_styles_main"
                         android:autoSizeTextType="uniform"
                         android:text="Алфавит" />
 
@@ -109,7 +108,7 @@
                         android:background="@color/imageView2" />
 
                     <TextView
-                        style="@style/tv_styles"
+                        style="@style/tv_styles_main"
                         android:autoSizeTextType="uniform"
                         android:text="Слова" />
 
@@ -138,7 +137,7 @@
                         android:background="@color/imageView3" />
 
                     <TextView
-                        style="@style/tv_styles"
+                        style="@style/tv_styles_main"
                         android:autoSizeTextType="uniform"
                         android:text="Цифры" />
 
@@ -159,7 +158,7 @@
                         android:background="@color/imageView4" />
 
                     <TextView
-                        style="@style/tv_styles"
+                        style="@style/tv_styles_main"
                         android:autoSizeTextType="uniform"
                         android:text="Животные" />
 
@@ -187,7 +186,7 @@
                         android:background="@color/imageView5" />
 
                     <TextView
-                        style="@style/tv_styles"
+                        style="@style/tv_styles_main"
                         android:autoSizeTextType="uniform"
                         android:text="Цвета" />
 
@@ -208,7 +207,7 @@
                         android:background="@color/imageView6" />
 
                     <TextView
-                        style="@style/tv_styles"
+                        style="@style/tv_styles_main"
                         android:autoSizeTextType="uniform"
                         android:text="Части тела" />
 
@@ -239,8 +238,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentTop="true"
                 android:textOff="On"
-                android:textOn="Off"
-                android:textStyle="italic" />
+                android:textOn="Off" />
 
         </RelativeLayout>
 
@@ -273,7 +271,7 @@
                         android:background="@color/imageView1" />
 
                     <TextView
-                        style="@style/tv_styles"
+                        style="@style/tv_styles_main"
                         android:autoSizeTextType="uniform"
                         android:text="Выбери цвет" />
 
@@ -294,7 +292,7 @@
                         android:background="@color/imageView2" />
 
                     <TextView
-                        style="@style/tv_styles"
+                        style="@style/tv_styles_main"
                         android:autoSizeTextType="uniform"
                         android:text="Раскраска" />
 
@@ -323,7 +321,7 @@
                         android:background="@color/imageView3" />
 
                     <TextView
-                        style="@style/tv_styles"
+                        style="@style/tv_styles_main"
                         android:autoSizeTextType="uniform"
                         android:paddingLeft="8dp"
                         android:paddingRight="8dp"
@@ -347,7 +345,7 @@
                         android:background="@color/imageView4" />
 
                     <TextView
-                        style="@style/tv_styles"
+                        style="@style/tv_styles_main"
                         android:autoSizeTextType="uniform"
                         android:text="Пианино" />
 
@@ -376,7 +374,7 @@
                         android:background="@color/imageView5" />
 
                     <TextView
-                        style="@style/tv_styles"
+                        style="@style/tv_styles_main"
                         android:autoSizeTextType="uniform"
                         android:text="Найти соответствие"
                         android:textAlignment="center" />
@@ -398,7 +396,11 @@
                         android:background="@color/imageView6" />
 
                     <TextView
-                        style="@style/tv_styles"
+                        style="@style/tv_styles_main"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="677dp"
+                        android:layout_toLeftOf="@+id/hide_simple_btn"
+                        android:layout_toStartOf="@+id/hide_simple_btn"
                         android:autoSizeTextType="uniform"
                         android:text="Счеты" />
 
