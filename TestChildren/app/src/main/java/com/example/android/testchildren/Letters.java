@@ -9,39 +9,12 @@ import android.widget.ImageView;
 
 public class Letters extends AppCompatActivity implements View.OnClickListener{
 
-    private ImageView mNextAct;
-    private ImageView mNextAct2;
-    private ImageView mNextAct3;
-    private ImageView mNextAct4;
-    private ImageView mNextAct5;
-    private ImageView mNextAct6;
-    private ImageView mNextAct7;
-    private ImageView mNextAct8;
-    private ImageView mNextAct9;
-    private ImageView mNextAct10;
-    private ImageView mNextAct11;
-    private ImageView mNextAct12;
-    private ImageView mNextAct13;
-    private ImageView mNextAct14;
-    private ImageView mNextAct15;
-    private ImageView mNextAct16;
-    private ImageView mNextAct17;
-    private ImageView mNextAct18;
-    private ImageView mNextAct19;
-    private ImageView mNextAct20;
-    private ImageView mNextAct21;
-    private ImageView mNextAct22;
-    private ImageView mNextAct23;
-    private ImageView mNextAct24;
-    private ImageView mNextAct25;
-    private ImageView mNextAct26;
-    private ImageView mNextAct27;
-    private ImageView mNextAct28;
-    private ImageView mNextAct29;
-    private ImageView mNextAct30;
-    private ImageView mNextAct31;
-    private ImageView mNextAct32;
-    private ImageView mNextAct33;
+    private ImageView mNextAct, mNextAct2, mNextAct3, mNextAct4, mNextAct5, mNextAct6,
+                      mNextAct7, mNextAct8, mNextAct9, mNextAct10, mNextAct11, mNextAct12,
+                      mNextAct13, mNextAct14, mNextAct15, mNextAct16, mNextAct17, mNextAct18,
+                      mNextAct19, mNextAct20, mNextAct21, mNextAct22, mNextAct23, mNextAct24,
+                      mNextAct25, mNextAct26, mNextAct27, mNextAct28, mNextAct29,
+                      mNextAct30, mNextAct31,  mNextAct32, mNextAct33;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

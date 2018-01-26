@@ -16,8 +16,8 @@ public class SecondScreen extends AppCompatActivity{
     private final static String TAG = "FB_SESOND_SCREEN";
 
     private FirebaseAnalytics mFirebaseAnalytics;
-    private ImageView mAlphabet;
-    private ImageView mDraw;
+
+    private ImageView mAlphabet, mDraw;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

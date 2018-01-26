@@ -9,20 +9,32 @@ import android.widget.ImageView;
 
 public class Colors extends AppCompatActivity implements View.OnClickListener{
 
-    private ImageView mNextAct;
-    private ImageView mNextAct2;
-    private ImageView mNextAct3;
-    private ImageView mNextAct4;
-    private ImageView mNextAct5;
-    private ImageView mNextAct6;
-    private ImageView mNextAct7;
-    private ImageView mNextAct8;
+    private ImageView mNextAct, mNextAct2, mNextAct3, mNextAct4,
+            mNextAct5, mNextAct6, mNextAct7, mNextAct8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.colors);
 
+        init();
+    }
+
+    @Override
+    public void onClick(View view) {
+        Intent intent = new Intent(Colors.this, ColorCards.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(Colors.this, MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
+    }
+
+    public void init() {
         mNextAct = findViewById(R.id.iv_1);
         mNextAct2 = findViewById(R.id.iv_2);
         mNextAct3 = findViewById(R.id.iv_3);
@@ -40,19 +52,5 @@ public class Colors extends AppCompatActivity implements View.OnClickListener{
         mNextAct6.setOnClickListener(this);
         mNextAct7.setOnClickListener(this);
         mNextAct8.setOnClickListener(this);
-    }
-
-    @Override
-    public void onClick(View view) {
-        Intent intent = new Intent(Colors.this, ColorCards.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        startActivity(intent);
-    }
-
-    @Override
-    public void onBackPressed() {
-        Intent intent = new Intent(Colors.this, MainActivity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        startActivity(intent);
     }
 }

@@ -44,8 +44,7 @@
                 android:text="Простые игры"
                 android:textColor="@color/imageView4"
                 android:textSize="26sp"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold" />
 
             <ToggleButton
                 android:id="@+id/hide_simple_btn"
@@ -100,7 +99,8 @@
                     android:layout_marginLeft="8dp"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:onClick="onToastClick">
 
                     <ImageView
                         android:id="@+id/iv_2"
@@ -129,6 +129,7 @@
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:onClick="onToastClick"
                     android:orientation="horizontal">
 
                     <ImageView
@@ -150,6 +151,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:onClick="onToastClick"
                     android:orientation="horizontal">
 
                     <ImageView
@@ -199,6 +201,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:onClick="onToastClick"
                     android:orientation="horizontal">
 
                     <ImageView
@@ -274,6 +277,7 @@
                     <TextView
                         style="@style/tv_styles_main"
                         android:autoSizeTextType="uniform"
+                        android:onClick="onToastClick"
                         android:text="Выбери цвет" />
 
                 </FrameLayout>
@@ -284,6 +288,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:onClick="onToastClick"
                     android:orientation="horizontal">
 
                     <ImageView
@@ -313,6 +318,7 @@
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:onClick="onToastClick"
                     android:orientation="horizontal">
 
                     <ImageView
@@ -337,6 +343,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:onClick="onToastClick"
                     android:orientation="horizontal">
 
                     <ImageView
@@ -366,6 +373,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
+                    android:onClick="onToastClick"
                     android:orientation="horizontal">
 
                     <ImageView
@@ -388,6 +396,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:onClick="onToastClick"
                     android:orientation="horizontal">
 
                     <ImageView
@@ -398,12 +407,9 @@
 
                     <TextView
                         style="@style/tv_styles_main"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginTop="677dp"
-                        android:layout_toLeftOf="@+id/hide_simple_btn"
-                        android:layout_toStartOf="@+id/hide_simple_btn"
                         android:autoSizeTextType="uniform"
-                        android:text="Счеты" />
+                        android:text="Счеты"
+                        android:textAlignment="center" />
 
                 </FrameLayout>
 
