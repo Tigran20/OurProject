@@ -23,7 +23,7 @@ public class Draw extends AppCompatActivity{
 
     @Override
     public void onBackPressed() {
-        Intent intent = new Intent(Draw.this, MainActivity.class);
+        Intent intent = new Intent(Draw.this, SecondScreen.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
     }

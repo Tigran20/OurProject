@@ -10,7 +10,11 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     private LinearLayout mSimpleLay;
     private LinearLayout mNotSimpleLay;
@@ -38,6 +42,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         mSimpleLay = findViewById(R.id.simple_lay);
         mNotSimpleLay = findViewById(R.id.not_simple_lay);
