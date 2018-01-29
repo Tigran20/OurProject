@@ -34,6 +34,7 @@
 
                 <TextView
                     style="@style/tv_styles"
+                    android:fontFamily="sans-serif"
                     android:text="А"
                     android:textAlignment="center" />
 
@@ -54,6 +55,7 @@
 
                 <TextView
                     style="@style/tv_styles2"
+                    android:fontFamily="sans-serif"
                     android:text="Б" />
 
             </FrameLayout>
@@ -91,6 +93,7 @@
 
                 <TextView
                     style="@style/tv_styles2"
+                    android:fontFamily="monospace"
                     android:text="Г" />
 
             </FrameLayout>
@@ -117,6 +120,7 @@
 
                 <TextView
                     style="@style/tv_styles2"
+                    android:fontFamily="sans-serif"
                     android:text="Д"
                     android:textAlignment="center" />
 
@@ -137,6 +141,7 @@
 
                 <TextView
                     style="@style/tv_styles"
+                    android:fontFamily="sans-serif"
                     android:text="Е" />
 
             </FrameLayout>
@@ -156,6 +161,7 @@
 
                 <TextView
                     style="@style/tv_styles2"
+                    android:fontFamily="sans-serif"
                     android:text="Ё" />
 
             </FrameLayout>
@@ -174,6 +180,7 @@
 
                 <TextView
                     style="@style/tv_styles"
+                    android:fontFamily="sans-serif"
                     android:text="Ж" />
 
             </FrameLayout>

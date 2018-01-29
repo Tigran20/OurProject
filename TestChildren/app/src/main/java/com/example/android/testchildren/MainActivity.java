@@ -18,17 +18,19 @@ public class MainActivity extends AppCompatActivity {
 
     private LinearLayout mSimpleLay, mNotSimpleLay;
 
-    private ImageView mNextAct, mNextAct2, mNextAct3, mNextAct4,mNextAct5,mNextAct6,
-                      mNextAct7, mNextAct8,mNextAct9,mNextAct10, mNextAct11, mNextAct12;
+    private ImageView mNextAct, mNextAct2, mNextAct3, mNextAct4, mNextAct5, mNextAct6,
+            mNextAct7, mNextAct8, mNextAct9, mNextAct10, mNextAct11, mNextAct12;
 
     private ToggleButton mHideSimple, mHideNotSimple;
 
     private boolean isBackBtnPressed = false;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         init();
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 

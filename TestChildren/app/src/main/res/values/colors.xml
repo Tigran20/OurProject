@@ -4,7 +4,6 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#146a08ea</color>
 
-
     <color name="textColor">#000000</color>
 
     <color name="imageView1">#ff4081</color>
@@ -15,7 +14,6 @@
     <color name="imageView6">#21a5c2</color>
 
     <color name="backgroundImage">#FAEBD7</color>
-
 
     <color name="rainbow1">#F44336</color>
     <color name="rainbow2">#3F51B5</color>
